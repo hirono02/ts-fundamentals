@@ -27,7 +27,7 @@ type Contact =
     & Email
     & Phone;
 
-function contact(details: Contact) {
+function contacting(details: Contact) {
     console.log(`
     Dear ${details.name}.
     I hope you received our email at ${details.email}.

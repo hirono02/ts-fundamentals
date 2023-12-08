@@ -17,7 +17,7 @@ move(25, 'North');
 
 type Dice = 1 | 2 | 3 | 4 | 5 | 6;
 
-function rollDice() {
+function rollingDice() {
     return (Math.floor(Math.random() * 6) + 1) as Dice;
 }
 // Won't ever happen
